@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Grade Calculator</h1>
+
+    <div class="inputs">
+      <input type="number" placeholder="Grade 1">
+      <input type="number" placeholder="Grade 2">
+      <input type="number" placeholder="Grade 3">
+      <input type="number" placeholder="Grade 4">
+      <input type="number" placeholder="Grade 5">
+      <input type="number" placeholder="Grade 6">
+      <input type="number" placeholder="Grade 7">
+    </div>
+
+    <button onclick="calculateGrade()">Calculate</button>
+
+    <div class="result" id="result">
+      <p>Average: -</p>
+      <p>Highest: -</p>
+      <p>Lowest: -</p>
+      <div class="grade">Grade: -</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
